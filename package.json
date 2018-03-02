@@ -1,0 +1,34 @@
+{
+  "name": "webpack4-demo",
+  "version": "1.0.0",
+  "description": "webpack V4",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.5.0",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.1",
+    "less": "^3.0.1",
+    "less-loader": "^4.0.6",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "keywords": [],
+  "author": "sunjianguo",
+  "license": "ISC",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development --config webpack.dev.js",
+    "build": "webpack --mode production --config  webpack.prod.js"
+  }
+}
