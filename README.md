@@ -3,9 +3,9 @@
 
 
 # 使用说明
-初始化：npm install
-开发：npm run dev
-生产：npm run build
+* 初始化：npm install
+* 开发：npm run dev
+* 生产：npm run build
 
 # 转载请注明出处
 https://github.com/Gogoson/webpack4-demo
