@@ -8,4 +8,4 @@
 * 生产：npm run build
 
 # 转载请注明出处
-https://github.com/Gogoson/webpack4-demo
+https://github.com/ricksunxxx/webpack4-demo
